@@ -2,7 +2,7 @@
   <div class="card" >
     <div class="card-body" >
       <h5 class="card-title">{{title}}</h5>
-      <p class="card-text"> toto {{describe}}</p>
+      <p class="card-text"> {{describe}}</p>
       <button href="#" class="btn btn-danger" onClick={deleteTodo}>Delete</button>
     </div>
   </div>

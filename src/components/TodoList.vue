@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h3>todoList page</h3>
-    <div v-for="(todo, index) in dataTodolist" :index="index" :key="index">      
+    <div v-for="(todo, index) in this.$store.state.storeData" :index="index" :key="index">      
       <Todo :key='index' :title='todo.title' :describe='todo.describe' :index='index'/>
     </div>
   </div>

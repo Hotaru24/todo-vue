@@ -17,6 +17,9 @@ export default new Vuex.Store({
     ]
   },
   mutations: {
+    setStoreData(state, value){
+      state.storeData = value
+    }
   },
   actions: {
   },
